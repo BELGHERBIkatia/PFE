@@ -1,0 +1,221 @@
+-debug
+-target:library
+-nowarn:0169
+-langversion:4
+-out:Temp/Assembly-CSharp.dll
+-unsafe
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll"
+-r:Assets/Accord.dll
+-r:Assets/Accord.MachineLearning.dll
+-r:Assets/Accord.Math.dll
+-r:Assets/plugins/Accord.dll
+-r:Assets/plugins/Accord.MachineLearning.dll
+-r:Assets/plugins/Accord.Math.dll
+-r:Assets/plugins/Accord.Statistics.dll
+-r:Assets/plugins/Mono.Data.Sqlite.dll
+-r:Assets/plugins/System.Data.dll
+-r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_5_OR_NEWER
+-define:UNITY_5_6_OR_NEWER
+-define:UNITY_5_6_0
+-define:UNITY_5_6
+-define:UNITY_5
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_GENERICS
+-define:ENABLE_PVR_GI
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_RUNTIME_NAVMESH_BUILDING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_LZMA
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:ENABLE_NATIVE_ARRAY
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:PLATFORM_SUPPORTS_MONO
+-define:RENDER_SOFTWARE_CURSOR
+-define:INCLUDE_PUBNUB
+-define:ENABLE_PLAYMODE_TESTS_RUNNER
+-define:ENABLE_SCRIPTING_NEW_CSHARP_COMPILER
+-define:ENABLE_VIDEO
+-define:UNITY_STANDALONE_WIN
+-define:UNITY_STANDALONE
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_MOVIES
+-define:ENABLE_NETWORK
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_EVENT_QUEUE
+-define:ENABLE_CLUSTERINPUT
+-define:ENABLE_VR
+-define:ENABLE_WEBSOCKET_HOST
+-define:ENABLE_MONO
+-define:NET_2_0
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:ENABLE_NATIVE_ARRAY_CHECKS
+-define:UNITY_TEAM_LICENSE
+-define:CROSS_PLATFORM_INPUT
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+"Assets/DualCorStudios/BasicUI Caution/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
+Assets/GesturesDemo/Scripts/GestureListener.cs
+Assets/GesturesDemo/Scripts/PresentationScript.cs
+Assets/KinectScripts/AvatarController.cs
+Assets/KinectScripts/AvatarControllerClassic.cs
+Assets/KinectScripts/BackgroundManager.cs
+Assets/KinectScripts/BackgroundWrapper.cs
+Assets/KinectScripts/Cubeman/CubemanController.cs
+Assets/KinectScripts/FacetrackingManager.cs
+Assets/KinectScripts/FacetrackingWrapper.cs
+Assets/KinectScripts/Filters/BoneOrientationsConstraint.cs
+Assets/KinectScripts/Filters/BoneOrientationsFilter.cs
+Assets/KinectScripts/Filters/ClippedLegsFilter.cs
+Assets/KinectScripts/Filters/JointPositionsFilter.cs
+Assets/KinectScripts/Filters/KinectHelper.cs
+Assets/KinectScripts/Filters/SelfIntersectionConstraint.cs
+Assets/KinectScripts/Filters/TimedLerp.cs
+Assets/KinectScripts/Filters/TrackingStateFilter.cs
+Assets/KinectScripts/InteractionManager.cs
+Assets/KinectScripts/InteractionWrapper.cs
+Assets/KinectScripts/KinectGestures.cs
+Assets/KinectScripts/KinectManager.cs
+Assets/KinectScripts/KinectWrapper.cs
+Assets/KinectScripts/Samples/FollowUserRotation.cs
+Assets/KinectScripts/Samples/GetJointPositionDemo.cs
+Assets/KinectScripts/Samples/LoadMainLevel.cs
+Assets/KinectScripts/Samples/MouseControl.cs
+Assets/KinectScripts/Samples/SetSceneAvatars.cs
+Assets/KinectScripts/Samples/SimpleGestureListener.cs
+Assets/KinectScripts/SpeechErrorHandler.cs
+Assets/KinectScripts/SpeechManager.cs
+Assets/KinectScripts/SpeechWrapper.cs
+Assets/KinectScripts/WrapperTools.cs
+Assets/Prefabs/DropDown/DateDropDown.cs
+Assets/Prefabs/DropDown/DateFillDropDown.cs
+Assets/Prefabs/Plane/PlanarRealtimeReflection.cs
+"Assets/Sci-Fi UI/Demo_Assets/scripts/GUI_Demo.cs"
+Assets/Script/AnimationDifferee.cs
+Assets/Script/AnimationManager.cs
+Assets/Script/AnimationSqueleton.cs
+Assets/Script/AvatarAnimator.cs
+Assets/Script/BestKmeans.cs
+Assets/Script/ButtonManager.cs
+Assets/Script/CalaculTransformationMatrix.cs
+Assets/Script/CalaculesMatrices.cs
+Assets/Script/CalendarManager.cs
+Assets/Script/Calibration.cs
+Assets/Script/ConnexionDB.cs
+Assets/Script/ConnexionMenu.cs
+Assets/Script/CubeMan.cs
+Assets/Script/CubeManAnimation.cs
+Assets/Script/DataCollecter.cs
+Assets/Script/DisplayManager.cs
+Assets/Script/DrawLine.cs
+Assets/Script/DropDownScript.cs
+Assets/Script/Examen.cs
+Assets/Script/ExcelScripts/CSVManager.cs
+Assets/Script/ExcelScripts/MyTools.cs
+Assets/Script/FillDropDown.cs
+Assets/Script/Fusion.cs
+Assets/Script/GestionDB/Mail/EmailFactory.cs
+Assets/Script/InterfaceAccueil.cs
+Assets/Script/InterfaceAdmin.cs
+Assets/Script/InterfaceConnexionClient.cs
+Assets/Script/InterfaceConnexionServeur.cs
+Assets/Script/InterfaceMedecin.cs
+Assets/Script/InterfaceOperateur.cs
+Assets/Script/ItemControlleur.cs
+Assets/Script/JointButtonManager.cs
+Assets/Script/ManagerExamen.cs
+Assets/Script/ManagerMedecin.cs
+Assets/Script/ManagerPatient.cs
+Assets/Script/Medecin.cs
+Assets/Script/Move.cs
+Assets/Script/Patient.cs
+Assets/Script/PatientManager.cs
+Assets/Script/Player.cs
+Assets/Script/PlayerID.cs
+Assets/Script/SaveAnimation.cs
+Assets/Script/UI_handle.cs
+Assets/Script/initCalibration.cs
+Assets/Script/initComponant.cs
+Assets/Script/newExamControlor.cs
+Assets/UI/DatePicker/DatePicker.cs
+Assets/UI/DatePicker/DatePickerCache.cs
+Assets/UI/DatePicker/DatePickerExtensions.cs
+Assets/UI/DatePicker/DatePickerTimer.cs
+Assets/UI/DatePicker/DatePickerUtilities.cs
+Assets/UI/DatePicker/DatePicker_Animator.cs
+Assets/UI/DatePicker/DatePicker_Button.cs
+Assets/UI/DatePicker/DatePicker_Config.cs
+Assets/UI/DatePicker/DatePicker_ContentLayout.cs
+Assets/UI/DatePicker/DatePicker_DateRange.cs
+Assets/UI/DatePicker/DatePicker_DayButton.cs
+Assets/UI/DatePicker/DatePicker_DayButton_Pool.cs
+Assets/UI/DatePicker/DatePicker_DayHeader.cs
+Assets/UI/DatePicker/DatePicker_Enums.cs
+Assets/UI/DatePicker/DatePicker_Header.cs
+Assets/UI/DatePicker/DatePicker_HoldButton.cs
+Assets/UI/DatePicker/DatePicker_InputField.cs
+Assets/UI/DatePicker/DatePicker_Instantiation.cs
+Assets/UI/DatePicker/Example/ExampleController.cs
+Assets/UI/DatePicker/SerializableDate.cs
+Assets/UI/TableLayout/Example/DynamicRowsExampleController.cs
+Assets/UI/TableLayout/Example/TableLayoutExampleController.cs
+Assets/UI/TableLayout/TableCell.cs
+Assets/UI/TableLayout/TableLayout.cs
+Assets/UI/TableLayout/TableLayoutUtilities.cs
+Assets/UI/TableLayout/TableRow.cs
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Runtime.Serialization.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\System.Xml.Linq.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\UnityScript.Lang.dll"
+-r:"C:\Program Files\Unity\Editor\Data\MonoBleedingEdge\lib\mono\2.0-api\Boo.Lang.dll"
+-sdk:2.0
